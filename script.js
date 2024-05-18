@@ -31,7 +31,7 @@ function initSwipers() {
         clickable: true,
       },
     });
-  } );
+  }, 6000);
 
   new Swiper(".anotherSwiper", {
     spaceBetween: 1,
