@@ -5,7 +5,7 @@ document.onreadystatechange = function () {
     document.querySelector("body").style.visibility = "hidden";
     document.querySelector("#loader").style.visibility = "block";
   } else {
-    // document.querySelector("#loader").style.display = "none";
+    document.querySelector("#loader").style.display = "visible";
     document.querySelector("body").style.visibility = "visible";
   }
 };
@@ -44,7 +44,7 @@ function initSwipers() {
       spaceBetween: 1,
       centeredSlides: true,
       autoplay: {
-        delay: 50000,
+        delay: 5000,
         disableOnInteraction: false,
       },
       pagination: {
@@ -98,8 +98,10 @@ function handleNewsScroll() {
 }
 
 // Execute functions
-hideLoader();
+window.onload = hideLoader;
+// hideLoader();
 initLocomotiveScroll();
 initSwipers();
 handleSwiperButtonListeners();
 handleNewsScroll();
+
