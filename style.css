@@ -328,20 +328,20 @@ nav a:hover {
 }
 
 #loader .indian {
-    animation-delay: 1s;
-}
-
-#loader .space {
     animation-delay: 2s;
 }
 
+#loader .space {
+    animation-delay: 4s;
+}
+
 #loader .research {
-    animation-delay: 3s;
+    animation-delay: 6s;
 }
 
 #loader .isro {
 
-    animation-delay: 4s;
+    animation-delay: 8s;
 }
 
 @keyframes load {
