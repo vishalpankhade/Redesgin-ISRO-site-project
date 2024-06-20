@@ -441,12 +441,12 @@
         display: flex;
         flex-direction: column;
         gap: 3%;
-        height: 100vh;
+        height: 70vh;
         margin: auto;
     }
 
     .isro-centres-box {
-        height: 100%;
+        height: unset;
         width: 95%;
     }
 
@@ -477,7 +477,7 @@
         padding-top: 5%;
         max-width: unset;
         font-size: .9em;
-        gap: 10px;
+        gap: 30vw;
         padding-top: 5%;
     }
 
@@ -486,6 +486,10 @@
         justify-content: unset;
         margin: 0;
         padding: 0;
+    }
+
+    .footer-address-right{
+        width: 50vw;
     }
 
 
