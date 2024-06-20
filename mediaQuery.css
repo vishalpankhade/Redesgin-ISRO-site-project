@@ -1,0 +1,512 @@
+/* Medium screens (tablets) */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+
+    .nav .logo img,
+    .satyamav-logo img {
+        max-height: 8vh;
+    }
+
+
+    .nav .logo p {
+        font-size: 2vw;
+        min-width: 23vw;
+    }
+
+    .nav .logo span {
+        font-size: .8em;
+    }
+
+    .page1-textbox {
+        left: 2vw;
+        font-size: 4.5vw;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    /* page 1  */
+
+    .topic {
+        font-size: 2vw;
+    }
+
+    .swiper-page-content p {
+        width: 60vw;
+        font-size: 2.4vw;
+        line-height: 1.7;
+    }
+
+    .swiper-page h3 {
+        font-size: 3vw;
+    }
+
+    button {
+        border-radius: 0.3em;
+        padding: 0.8vw 1vw;
+        font-size: 1.8vw;
+        width: 16vw;
+    }
+
+
+    /* ABOUT  */
+
+    #about h2 {
+        font-size: 3vw;
+    }
+
+    .about-us p {
+        font-size: 2.5vw;
+    }
+
+    h4 {
+        font-size: 4vw;
+    }
+
+    .chandrayaan-summary p {
+        max-width: 100%;
+    }
+
+    .chandrayaan-summary {
+        font-size: 2.6vw;
+    }
+
+    .flash-news {
+        font-size: 2.5vw;
+    }
+
+    .keyLink-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .key-link-box {
+        width: 33vw;
+        margin: 10px;
+        padding: 4%;
+    }
+
+    /* LATEST NEWS  */
+
+    .latest-news>p {
+        font-size: 2vw;
+    }
+
+    .news-card {
+        flex-wrap: wrap;
+        gap: 10%;
+    }
+
+    .news-card-box {
+        max-width: 30vw;
+    }
+
+    .news-card-box .overlay p {
+        padding-top: 14rem;
+        font-size: 1.5em;
+    }
+
+    .news-card-box:hover .overlay p {
+        padding-top: 11rem;
+    }
+
+    .news-card-box .overlay p span {
+        padding: 2%;
+        font-size: 1.5vw;
+    }
+
+    /* ISRO PORTALS  */
+
+    .isro-portals {
+        margin-top: 35vh;
+    }
+
+    .portal-grid {
+        margin-top: 5% auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 3%;
+        row-gap: 3%;
+        height: 71vh;
+    }
+
+    .portal-box {
+        width: 40vw;
+    }
+
+    .portal-grid p {
+        font-size: 0.8em !important;
+    }
+
+    /* recent updates  */
+
+    .recent-updates {
+        margin-top: 60vh;
+    }
+
+    .update-boxes {
+        display: flex;
+        gap: 2%;
+        flex-wrap: wrap;
+    }
+
+    .update-box {
+        width: 35vw;
+        margin: 2% auto;
+    }
+
+    .update-box h5 {
+        font-size: 2.5vw;
+    }
+
+    .update-box .overlay {
+        gap: 6%;
+        top: 53%;
+    }
+
+    .update-box p {
+        font-size: 2vw;
+    }
+
+    .update-box button {
+        font-size: 2vw;
+    }
+
+    /* ISRO CENTERS */
+
+    .isro-centres-box-header {
+        font-size: 3vw;
+    }
+
+    .centres-heading {
+        font-size: 2vw;
+    }
+
+
+    .isro-centres-box {
+        height: unset;
+        width: 100%;
+        position: relative;
+    }
+
+    .isro-centres {
+        height: unset;
+        width: 60%;
+        z-index: 3;
+    }
+
+    .last-container {
+        padding-bottom: 65vh;
+    }
+
+    .footer-container {
+        margin: unset;
+        padding: 0 20px 0;
+    }
+
+    .footer-section {
+        min-width: 135px;
+    }
+
+    footer {
+        padding: unset;
+    }
+
+    .footer-sections {
+        flex-wrap: wrap;
+        margin-left: 3%;
+    }
+
+
+}
+
+
+/* Small screens (phones) */
+@media screen and (max-width: 576px) {
+
+    /* nav  */
+
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+
+    .nav .logo img,
+    .satyamav-logo img {
+        height: 8vh;
+    }
+
+
+    .nav .logo p {
+        font-size: 2.4vw;
+        width: 30vw;
+    }
+
+    .nav .logo span {
+        font-size: .9em;
+    }
+
+    .page1-textbox {
+        left: 7vw;
+        font-size: 3.6vw;
+        gap: .3rem;
+    }
+
+    .page1-textbox p {
+        font-size: unset;
+
+    }
+
+    #isro-color {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    /* page 1  */
+
+
+    .topic {
+        font-size: 3vw;
+    }
+
+    .swiper-page-content {
+        gap: 6%;
+        top: 35%;
+        height: 65vh;
+    }
+
+    .swiper-page h3 {
+        font-size: 5vw;
+    }
+
+    .swiper-page-content p {
+        width: 70vw;
+        line-height: 1.7;
+        font-size: 2.8vw;
+    }
+
+    button {
+        border-radius: 0.4em;
+        padding: 1.5vw 2vw;
+        font-size: 2.8vw;
+        width: 22vw;
+    }
+
+    /* about  */
+
+    #about h2 {
+        font-size: 6vw;
+    }
+
+    .about-us p {
+        font-size: 2.8vw;
+    }
+
+    .chandrayaan-summary {
+        width: 95vw;
+        font-size: 2.8vw;
+        line-height: 2;
+    }
+
+    .Chandrayaan-video video {
+        max-width: 80%;
+    }
+
+    /* rest-page */
+
+    .rest-page {
+        height: 100%;
+        width: 85vw;
+    }
+
+    /* flash news */
+
+    #flash-heading {
+        font-size: 1rem;
+    }
+
+    #scrollingText p {
+        font-size: .8rem;
+    }
+
+    .rest-page h4 {
+        font-size: 5vw;
+    }
+
+    #light-text {
+        font-size: 1rem;
+    }
+
+    .keyLink-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .key-link-box {
+        width: 40vw;
+        margin: 10px;
+        flex-grow: 1;
+        padding: 4%;
+    }
+
+
+    .news-card {
+        flex-wrap: wrap;
+        gap: 10%;
+    }
+
+    .news-card-box .overlay p {
+        padding-top: 15rem;
+        font-size: 1.8em;
+    }
+
+    .news-card-box .overlay p span {
+        font-size: 2vw;
+    }
+
+    .isro-portals {
+        margin-top: 35vh;
+    }
+
+    .portal-grid {
+        margin-top: 5% auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 3%;
+        row-gap: 3%;
+        height: 71vh;
+    }
+
+    .portal-box {
+        width: 40vw;
+    }
+
+    .portal-grid p {
+        font-size: .7em !important;
+    }
+
+
+    .recent-updates {
+        margin-top: 60vh;
+    }
+
+    .update-boxes {
+        display: flex;
+        gap: 2%;
+        flex-wrap: wrap;
+    }
+
+    .update-box {
+        width: 40vw;
+        margin: 3% auto;
+    }
+
+    .update-box h5 {
+        font-size: 3vw;
+    }
+
+    .update-box .overlay {
+        gap: 6%;
+        top: 54%;
+    }
+
+    .update-box p {
+        font-size: 2.5vw;
+    }
+
+    .update-box button {
+        font-size: 3vw;
+        padding: 3px 1px;
+    }
+
+    .isro-centres {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+        height: 100vh;
+        margin: auto;
+    }
+
+    .isro-centres-box {
+        height: 100%;
+        width: 95%;
+    }
+
+    .isro-centres-box-header {
+        font-size: 2em;
+    }
+
+    .centres-heading {
+        font-size: 1em;
+    }
+
+    .last-container>img {
+        display: none;
+    }
+
+    /* footer  */
+
+
+
+    footer {
+        padding: 2%;
+    }
+
+
+    .first-footer-section {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 5%;
+        max-width: unset;
+        font-size: .9em;
+        gap: 10px;
+        padding-top: 5%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        justify-content: unset;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .footer-sections {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-section {
+        max-width: unset;
+        width: 120px;
+        line-height: unset;
+    }
+
+    .footer-section ul li a {
+        font-size: .7em;
+    }
+
+    .hii {
+        align-content: unset;
+        position: unset;
+    }
+
+}

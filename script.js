@@ -7,6 +7,15 @@ function hideLoader() {
   }, 6000);
 }
 
+// toggleMenu
+
+function toggleMenu() {
+  const menu = document.querySelector(".menu-links");
+  const icon = document.querySelector(".hamburger-icon");
+  menu.classList.toggle("open");
+  icon.classList.toggle("open");
+}
+
 // Initialize LocomotiveScroll
 function initLocomotiveScroll() {
   return new LocomotiveScroll({
@@ -23,7 +32,7 @@ function initSwipers() {
       spaceBetween: 1,
       centeredSlides: true,
       autoplay: {
-        delay: 5000,
+        delay: 50000,
         disableOnInteraction: false,
       },
       pagination: {

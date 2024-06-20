@@ -13,12 +13,13 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaQuery.css">
 </head>
 
 <body>
   <div id="full-page" data-scroll-container>
 
-    <nav class="nav">
+    <nav class="nav" id="desktop-nav">
       <div class="logo">
         <div>
           <img src="assets/isro-logo.png" alt="" />
@@ -38,22 +39,68 @@
           <li><a href="#contact">Resources</a></li>
           <li><a href="#engage">Engage with us</a></li>
       </div>
-      <div class="search-icon">
-        <img src="assets/svg/search-icon.svg" alt="search-icon">
-        <p>en</p>
+        <div class="search-container">
+          <input checked="" class="checkbox" type="checkbox"> 
+          <div class="mainbox">
+              <div class="iconContainer">
+                  <svg viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg" class="search_icon"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg>
+              </div>
+           <input class="search_input" placeholder="search" type="text">
+          </div>
       </div>
       <div class="satyamav-logo">
         <img src="assets/National-Emblem-Of-India-removebg-preview.png" alt="" />
       </div>
     </nav>
+    <nav class="nav" id="hamburger-nav">
+      <div class="logo">
+        <div>
+          <img src="assets/isro-logo.png" alt="" />
+        </div>
+        <p>
+          Indian Space <br />
+          Research Organization <span> Department of space </span>
+        </p>
+      </div>
+      <div class="search-container">
+        <input checked="" class="checkbox" type="checkbox"> 
+        <div class="mainbox">
+            <div class="iconContainer">
+                <svg viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg" class="search_icon"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg>
+            </div>
+         <input class="search_input" placeholder="search" type="text">
+        </div>
+    </div>
+      <div class="nav-right-side">
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#Chandrayaan-2" onclick="toggleMenu()">Activites</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Services</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Programmes</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Resources</a></li>
+            <li><a href="#engage" onclick="toggleMenu()">Engage with us</a></li>
+          </div>
+        </div>
+        <div class="satyamav-logo">
+          <img src="assets/National-Emblem-Of-India-removebg-preview.png" alt="" />
+        </div>
+      </div>
+    </nav>
     <div id="starting-page">
-      <div id="loader">
+      <!-- <div id="loader">
         <video src="assets/video/loader.mp4" autoplay loop muted></video>
         <h1 class="indian">INDIAN</h1>
         <h1 class="space">SPACE</h1>
         <h1 class="research">RESEARCH</h1>
         <h1 class="isro">ORGANIZATION <br /> (ISRO) </h1>
-      </div>
+      </div> -->
 
 
       <div class="swiper mySwiper">
@@ -577,16 +624,20 @@
     <footer>
       <div class="footer-container">
         <div class="first-footer-section">
-          <img src="assets/isro-logo.png" alt="ISRO Logo" class="footer-isro-logo">
-          <h4>Address</h4>
-          <p class="address">
-            ISRO Headquarters, Antariksh Bhavan,
+          <div>
+
+            <img src="assets/isro-logo.png" alt="ISRO Logo" class="footer-isro-logo">
+            </div>
+            <div class="footer-address-right">
+              <h4>Address</h4>
+            <p class="address">
+              ISRO Headquarters, Antariksh Bhavan,
             New BEL Road, Bengaluru - 560 094<br>
-            Phone: +91 80 22172294 / 96<br>
-            <a href="mailto:isropr@isro.gov.in">
-              Email: isropr@isro.gov.in
-            </a>
-          </p>
+          Phone: +91 80 22172294 / 96<br>
+        <a href="mailto:isropr@isro.gov.in">
+          Email: isropr@isro.gov.in
+        </a>
+      </p>
           <span></span>
           <div class="footer-social">
             <h4>Social</h4>
@@ -594,16 +645,18 @@
             <a href="https://www.facebook.com/ISRO" class="fa fa-facebook">
               <img src="assets/social icons/icons8-fb-50.png" alt="">
             </a>
-            <a href="https://x.com/isro" class="fa fa-twitter"> <img src="assets/social icons/icons8-x-50.png"
-                alt=""></a>
+          <a href="https://x.com/isro" class="fa fa-twitter"> <img src="assets/social icons/icons8-x-50.png"
+          alt=""></a>
             <a href="https://www.instagram.com/isro.dos/" class="fa fa-instagram"> <img
-                src="assets/social icons/icons8-insta-50.png" alt=""></a>
-            <a href="https://www.youtube.com/channel/UCw5hEVOTfz_AfzsNFWyNlNg" class="fa fa-youtube"> <img
+            src="assets/social icons/icons8-insta-50.png" alt=""></a>
+          <a href="https://www.youtube.com/channel/UCw5hEVOTfz_AfzsNFWyNlNg" class="fa fa-youtube"> <img
                 src="assets/social icons/icons8-youtube-50.png" alt=""></a>
             <a href="https://en.wikipedia.org/wiki/ISRO" class="fa fa-wikipedia"> <img
                 src="assets/social icons/icons8-wikipedia-50.png" alt=""></a>
           </div>
         </div>
+      </div>
+      <div class="footer-sections">
         <div class="footer-section">
           <h4>Quick links</h4>
           <ul>
@@ -632,6 +685,8 @@
           </ul>
         </div>
       </div>
+    </div>
+
       <div class="hii">
         <p>
           If you enjoyed exploring this website and have any questions or feedback,
