@@ -309,6 +309,7 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #000;
 }
 
 #loader h1 {
