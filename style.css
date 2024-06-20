@@ -1172,14 +1172,14 @@ footer p {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 100vw;
+    width: 80vw;
     text-align: center;
     align-items: center;
     align-content: center;
     line-height: 1.5;
     position: absolute;
     bottom: 10%;
-    left: 20%;
+    left: 30%;
     top: 75%;
 }
 
