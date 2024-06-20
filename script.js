@@ -52,7 +52,7 @@ function initSwipers() {
         clickable: true,
       },
     });
-  }, 6000);
+  }, 12000);
 
   new Swiper(".anotherSwiper", {
     spaceBetween: 1,
