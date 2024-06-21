@@ -483,7 +483,7 @@
         padding-top: 5%;
         max-width: unset;
         font-size: .9em;
-        gap: 30vw;
+        gap: 25%;
         padding-top: 5%;
     }
 
@@ -493,11 +493,6 @@
         margin: 0;
         padding: 0;
     }
-
-    .footer-address-right{
-        width: 50vw;
-    }
-
 
     .footer-sections {
         display: flex;
