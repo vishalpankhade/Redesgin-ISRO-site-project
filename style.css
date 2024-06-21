@@ -843,7 +843,7 @@ button:hover {
 }
 
 .news-card-box .overlay p {
-    padding-top: 9rem;
+    padding-top: 13rem;
     transition: all 0.5s ease-in-out;
     font-size: 1.1vw;
 }
@@ -1081,9 +1081,10 @@ footer {
     color: #fff;
     padding: 0% 40px 18px 0%;
     position: absolute;
-    min-height: 65vh;
+    /* min-height: 65vh; */
+    height: auto;
     bottom: 0;
-    width: 100vw;
+    width: 100%;
 }
 
 footer p {
@@ -1172,15 +1173,17 @@ footer p {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 80vw;
+    /* width: 80vw; */
     text-align: center;
     align-items: center;
     align-content: center;
     line-height: 1.5;
     position: absolute;
     bottom: 10%;
-    left: 30%;
-    top: 75%;
+    /* left: 30%; */
+    /* top: 75%; */
+    width: fit-content;
+    right: 5%;
 }
 
 .hii p {
