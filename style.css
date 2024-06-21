@@ -843,7 +843,7 @@ button:hover {
 }
 
 .news-card-box .overlay p {
-    padding-top: 13rem;
+    padding-top: 9rem;
     transition: all 0.5s ease-in-out;
     font-size: 1.1vw;
 }

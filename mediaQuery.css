@@ -113,6 +113,7 @@
     }
 
     .news-card-box .overlay p {
+        padding-top: 13rem;
         font-size: 1.5em;
     }
 
@@ -380,6 +381,7 @@
     }
 
     .news-card-box .overlay p {
+        padding-top: 13rem;
         font-size: 1.8em;
     }
 
