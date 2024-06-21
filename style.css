@@ -1083,7 +1083,7 @@ footer {
     position: absolute;
     /* min-height: 65vh; */
     height: auto;
-    bottom: 0;
+    bottom: 0 !important;
     width: 100%;
 }
 
