@@ -1,14 +1,26 @@
 // show loader first
 
-document.onreadystatechange = function () {
-  if (document.readyState !== "complete") {
-    document.querySelector("body").style.visibility = "hidden";
-    // document.querySelector("#loader").style.visibility = "block";
-  } else {
-    // document.querySelector("#loader").style.display = "visible";
+// document.onreadystatechange = function () {
+//   if (document.readyState !== "complete") {
+//     document.querySelector("body").style.visibility = "hidden";
+//     // document.querySelector("#loader").style.visibility = "block";
+//   } else {
+//     // document.querySelector("#loader").style.display = "visible";
+//     document.querySelector("body").style.visibility = "visible";
+//   }
+// };
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Show loader immediately
+  document.querySelector("body").style.visibility = "hidden";
+
+  // Hide loader after a short delay
+  setTimeout(function() {
     document.querySelector("body").style.visibility = "visible";
-  }
-};
+  }, 500); // Adjust delay as needed
+});
+
 
 // loader
 
