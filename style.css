@@ -1077,14 +1077,10 @@ button:hover {
 
 
 footer {
-    background-color: #000000;
     color: #fff;
-    padding: 0% 40px 18px 0%;
-    position: absolute;
+    position: relative;
     /* min-height: 65vh; */
-    height: auto;
-    bottom: 0 !important;
-    width: 100%;
+    background-color: #000000;
 }
 
 footer p {
@@ -1104,16 +1100,22 @@ footer p {
 }
 
 .footer-container {
+    position: absolute;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    margin: 0 auto;
-    padding: 0 20px;
+    /* margin: 0 auto; */
+    /* padding: 0 20px; */
+    height: auto;
+    bottom: 0 !important;
+    width: 100%;
+    background-color: #000000;
+    padding: 0% 40px 18px 0%;
 }
 
 .footer-sections {
     display: flex;
-    /* gap: 2%; */
+    /* gap: 10%; */
 }
 
 .footer-section {
@@ -1187,7 +1189,7 @@ footer p {
 }
 
 .hii p {
-    max-width: 40vw;
+    max-width: 50vw;
 }
 
 .hii a {
