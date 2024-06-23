@@ -113,12 +113,12 @@
     }
 
     .news-card-box .overlay p {
-        padding-top: 13rem;
+        padding-top: 9rem;
         font-size: 1.5em;
     }
 
     .news-card-box:hover .overlay p {
-        padding-top: 11rem;
+        padding-top: 7rem;
     }
 
     .news-card-box .overlay p span {
@@ -143,7 +143,7 @@
 
     .portal-box {
         width: 40vw;
-        height: 30vh;
+        max-height: 30vh;
     }
 
     .portal-grid p {
@@ -213,7 +213,19 @@
 
     .footer-container {
         margin: unset;
-        padding: 0 20px 0;
+        padding: 2rem;
+        flex-direction: column;
+    }
+
+    .first-footer-section {
+        display: flex;
+        justify-content: space-between;
+        min-width: 90vw;
+        gap: 25%;
+    }
+
+    .footer-isro-logo {
+        width: 12rem;
     }
 
     .footer-section {
@@ -230,10 +242,10 @@
     }
 
     .hii {
-        width: unset;
-        align-content: unset;
+        width: 90vw;
         position: unset;
     }
+
 
 
 }
@@ -250,6 +262,10 @@
 
     #hamburger-nav {
         display: flex;
+    }
+
+    .menu-links a{
+        font-size: 1rem;
     }
 
     .nav .logo img,
@@ -381,7 +397,7 @@
     }
 
     .news-card-box .overlay p {
-        padding-top: 13rem;
+        padding-top: 9rem;
         font-size: 1.8em;
     }
 
@@ -472,13 +488,6 @@
 
 
     /* footer  */
-/* 
-    footer {
-        padding: 2%;
-        position: fixed;
-        bottom: 0%;
-    } */
-
 
     .first-footer-section {
         display: flex;
@@ -490,7 +499,7 @@
         padding-top: 5%;
     }
 
-    .footer-address-right{
+    .footer-address-right {
         font-size: 1.2vh;
     }
 
@@ -498,7 +507,7 @@
         flex-direction: column;
         justify-content: unset;
         margin: 0;
-        padding: 0;
+        padding: 2rem;
     }
 
     .footer-sections {

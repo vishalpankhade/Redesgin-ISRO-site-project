@@ -150,7 +150,6 @@ nav a:hover {
   position: absolute;
   top: 100%;
   right: 60%;
-  /* background-color: rgba(255, 255, 255, 0.137); */
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -997,7 +996,7 @@ button:hover {
     background-repeat: no-repeat;
     width: 55%;
     right: -5%;
-    top: 16%;
+    top: 13%;
     transform: scale(1);
     transition: all 0.8s ease-in-out;
 }
@@ -1079,7 +1078,6 @@ button:hover {
 footer {
     color: #fff;
     position: relative;
-    /* min-height: 65vh; */
     background-color: #000000;
 }
 
@@ -1104,8 +1102,6 @@ footer p {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    /* margin: 0 auto; */
-    /* padding: 0 20px; */
     height: auto;
     bottom: 0 !important;
     width: 100%;
@@ -1115,7 +1111,6 @@ footer p {
 
 .footer-sections {
     display: flex;
-    /* gap: 10%; */
 }
 
 .footer-section {
@@ -1175,15 +1170,12 @@ footer p {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* width: 80vw; */
     text-align: center;
     align-items: center;
     align-content: center;
     line-height: 1.5;
     position: absolute;
     bottom: 10%;
-    /* left: 30%; */
-    /* top: 75%; */
     width: fit-content;
     right: 5%;
 }
