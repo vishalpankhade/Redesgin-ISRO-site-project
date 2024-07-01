@@ -55,6 +55,7 @@ function initSwipers() {
     new Swiper(".mySwiper", {
       spaceBetween: 1,
       centeredSlides: true,
+      loop: true,
       autoplay: {
         delay: 5000,
         disableOnInteraction: false,
