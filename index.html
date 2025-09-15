@@ -9,7 +9,7 @@
     content="A redesigned version of the ISRO website as a frontend project, featuring official site links and modern design elements.">
   <meta name="author" content="vishalpankhade">
   <title>ISRO-SPACE</title>
-  <link rel="shortcut icon" href="assets/isro-logo2.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/isro-logo2.webp" type="image/x-icon">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="style.css" />
@@ -22,7 +22,7 @@
     <nav class="nav" id="desktop-nav">
       <div class="logo">
         <div>
-          <img src="assets/isro-logo.png" alt="" />
+          <img src="assets/isro-logo.webp" alt="" />
         </div>
         <p>
           Indian Space <br />
@@ -49,13 +49,13 @@
           </div>
       </div>
       <div class="satyamav-logo">
-        <img src="assets/National-Emblem-Of-India-removebg-preview.png" alt="" />
+        <img src="assets/National-Emblem-Of-India-removebg-preview.webp" alt="" />
       </div>
     </nav>
     <nav class="nav" id="hamburger-nav">
       <div class="logo">
         <div>
-          <img src="assets/isro-logo.png" alt="" />
+          <img src="assets/isro-logo.webp" alt="" />
         </div>
         <p>
           Indian Space <br />
@@ -89,13 +89,17 @@
           </div>
         </div>
         <div class="satyamav-logo">
-          <img src="assets/National-Emblem-Of-India-removebg-preview.png" alt="" />
+          <img src="assets/National-Emblem-Of-India-removebg-preview.webp" alt="" />
         </div>
       </div>
     </nav>
     <div id="starting-page">
       <div id="loader">
-        <video src="assets/video/loader.mp4" autoplay loop muted></video>
+    <video autoplay loop muted playsinline>
+      <source src="assets/video/loader.webm" type="video/webm">
+      <source src="assets/video/loader.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
         <h1 class="indian">INDIAN</h1>
         <h1 class="space">SPACE</h1>
         <h1 class="research">RESEARCH</h1>
@@ -226,7 +230,7 @@
         <div class="swiper-slide">
           <div class="swiper-page">
             <div class="Chandrayaan-video">
-              <img class="c-video-bg-img" src="assets/chandrayaan1.png" alt="">
+              <img class="c-video-bg-img" src="assets/chandrayaan1.webp" alt="">
 
               <div class="Chandrayaan-video-container">
                 <iframe loading="lazy" class="responsive-iframe" width="760" height="415"
@@ -242,7 +246,7 @@
         <div class="swiper-slide">
           <div class="swiper-page">
             <div class="Chandrayaan-video C-2-video">
-              <img loading="lazy" class="c-video-bg-img" src="assets/chandrayaan2 img.png" alt="">
+              <img loading="lazy" class="c-video-bg-img" src="assets/chandrayaan2 img.webp" alt="">
               <video loading="lazy" src="assets/video/isro_chandrayan2.webm" autoplay controls muted></video>
             </div>
 
@@ -251,7 +255,7 @@
         <div class="swiper-slide">
           <div class="swiper-page">
             <div class="Chandrayaan-video">
-              <img class="c-video-bg-img" src="assets/chandrayaan3.png" alt="">
+              <img class="c-video-bg-img" src="assets/chandrayaan3.webp" alt="">
 
               <div class="Chandrayaan-video-container">
                 <iframe loading="lazy" class="responsive-iframe" width="760" height="415"
@@ -348,7 +352,7 @@
 
             <div class="news-card-box">
 
-              <img src="assets/ch-3-lander.png" alt="">
+              <img src="assets/ch-3-lander.webp" alt="">
               <div class="overlay">
                 <a
                   href="https://www.isro.gov.in/Chandrayaan-3_lander_Instrument.html#:~:text=The%20Laser%20Retroreflector%20Array%20(LRA,for%20reference)%20on%20the%20moon.">
@@ -362,7 +366,7 @@
             </div>
             <div class="news-card-box">
 
-              <img src="assets/helo-orbit.jpg" alt="">
+              <img src="assets/helo-orbit.webp" alt="">
               <div class="overlay">
                 <a href="Flight Demonstration of Si-Gr anode based High Energy Density Li-ion Cells">
 
@@ -375,7 +379,7 @@
             </div>
             <div class="news-card-box">
 
-              <img src="assets/si-gr anode.png" alt="">
+              <img src="assets/si-gr anode.webp" alt="">
               <div class="overlay">
                 <a
                   href="https://www.isro.gov.in/FlightDemonstration_Si-Gr_anode.html#:~:text=The%20flight%20demonstration%20of%20the,match%20well%20with%20the%20predictions.">
@@ -401,7 +405,7 @@
           <div class="portal-grid">
 
             <div class="portal-box">
-              <img src="assets/logos/spark-image.png" alt="spark-image">
+              <img src="assets/logos/spark-image.webp" alt="spark-image">
               <a a target="_blank" href="https://www.isro.gov.in/Virtual_Space_Museum.html">
                 <div class="portal-box-heading">
                   SPARK
@@ -419,7 +423,7 @@
               <p id="light-text">Knowledge portal on Space Education, explore Space technology and it's applications</p>
             </div>
             <div class="portal-box">
-              <img src="assets/logos/I-GRASP.png" alt="I-GRASP">
+              <img src="assets/logos/I-GRASP.webp" alt="I-GRASP">
               <a target="_blank" href="https://igrasp.isro.gov.in/">
                 <div class="portal-box-heading">I-GRASP</div>
               </a>
@@ -427,35 +431,35 @@
                 ISRO Grant in Aid for Space Research The portal invites proposals from academia</p>
             </div>
             <div class="portal-box">
-              <img src="assets/logos/vedas_logo1.png" alt="vedas_logo1">
+              <img src="assets/logos/vedas_logo1.webp" alt="vedas_logo1">
               <a target="_blank" href="https://vedas.sac.gov.in/en/">
                 <div class="portal-box-heading">VEDAS</div>
               </a>
               <p id="light-text">Visualisation of Earth Observation Data and Archival System portal</p>
             </div>
             <div class="portal-box">
-              <img src="assets/logos/bhuvan logo.jpg" alt="bhuvan">
+              <img src="assets/logos/bhuvan logo.webp" alt="bhuvan">
               <a target="_blank" href="https://bhuvan.nrsc.gov.in/home/index.php">
                 <div class="portal-box-heading">BHUVAN</div>
               </a>
               <p id="light-text">Inidan Gea-platform of space research organization for Visualisation portal</p>
             </div>
             <div class="portal-box">
-              <img src="assets/logos/mosdac-logo.png" alt="MOSDAC">
+              <img src="assets/logos/mosdac-logo.webp" alt="MOSDAC">
               <a target="_blank" href="https://www.isro.gov.in/MOSDAC.html">
                 <div class="portal-box-heading">MOSDAC</div>
               </a>
               <p id="light-text">Meteorological and Oceanographic Satellite Data Archival Centre portal</p>
             </div>
             <div class="portal-box">
-              <img src="assets/logos/isro-roket-logo.png" alt="issdc">
+              <img src="assets/logos/isro-roket-logo.webp" alt="issdc">
               <a target="_blank" href="https://www.issdc.gov.in/">
                 <div class="portal-box-heading">ISSDC</div>
               </a>
               <p id="light-text">ISSDC is the main data center for Indian Space Science Mission payload archives</p>
             </div>
             <div class="portal-box">
-              <img src="assets/logos/Bhoonidhi_2_0.png" alt="bhoonidhi">
+              <img src="assets/logos/Bhoonidhi_2_0.webp" alt="bhoonidhi">
               <a target="_blank" href="https://bhoonidhi.nrsc.gov.in/bhoonidhi/home.html">
                 <div class="portal-box-heading">BHOONIDHI</div>
               </a>
@@ -464,7 +468,7 @@
               </p>
             </div>
             <div class="portal-box">
-              <img src="assets/logos/ndem-logo.png" alt="ndem-logo">
+              <img src="assets/logos/ndem-logo.webp" alt="ndem-logo">
               <a target="_blank" href="https://ndem.nrsc.gov.in/login.php">
                 <div class="portal-box-heading">NDEM</div>
               </a>
@@ -479,7 +483,7 @@
           <div class="update-boxes">
             <div class="update-box">
 
-              <img src="assets/update images/u-1.jpg" alt="">
+              <img src="assets/update images/u-1.webp" alt="">
               <div class="overlay">
                 <div class="update-overlay-text
                 "></div>
@@ -493,7 +497,7 @@
             </div>
             <div class="update-box">
 
-              <img src="assets/update images/u-2-aditya-l1-mission-satellite-.png" alt="">
+              <img src="assets/update images/u-2-aditya-l1-mission-satellite-.webp" alt="">
               <div class="overlay">
                 <div class="update-overlay-text
                 "></div>
@@ -506,7 +510,7 @@
             </div>
             <div class="update-box">
 
-              <img src="assets/update images/u-3.jpg" alt="">
+              <img src="assets/update images/u-3.webp" alt="">
               <div class="overlay">
                 <div class="update-overlay-text
                 "></div>
@@ -535,7 +539,7 @@
 
         </div>
         <div class="last-container">
-          <img src="assets/india-map.png" alt="">
+          <img src="assets/india-map.webp" alt="">
           <div class="isro-centres">
             <div class="centers-heading">
 
@@ -554,7 +558,7 @@
               <div class="centres-container">
 
                 <div class="isro-centres-boxs">
-                  <img src="assets/isro-logo2.png" alt="">
+                  <img src="assets/isro-logo2.webp" alt="">
                   <a href="https://www.isro.gov.in/DOS&ISROHQ.html">
                     <div>
                       <p class="centres-heading">
@@ -568,7 +572,7 @@
                 </div>
                 <span></span>
                 <div class="isro-centres-boxs">
-                  <img src="assets/logos/hsfc logo.png" alt="">
+                  <img src="assets/logos/hsfc logo.webp" alt="">
                   <a href="https://www.isro.gov.in/HSFC.html">
 
                     <div>
@@ -580,7 +584,7 @@
                 </div>
                 <span></span>
                 <div class="isro-centres-boxs">
-                  <img src="assets/logos/iirs logo.jpg" alt="">
+                  <img src="assets/logos/iirs logo.webp" alt="">
                   <a href="https://www.isro.gov.in/IIRS.html">
 
                     <div>
@@ -592,7 +596,7 @@
                 </div>
                 <span></span>
                 <div class="isro-centres-boxs">
-                  <img src="assets/logos/iprc logo.png" alt="">
+                  <img src="assets/logos/iprc logo.webp" alt="">
                   <a href="https://www.isro.gov.in/IPRC.html">
 
                     <div>
@@ -604,7 +608,7 @@
                 </div>
                 <span></span>
                 <div class="isro-centres-boxs">
-                  <img src="assets/logos/isro-logo2.png" alt="">
+                  <img src="assets/logos/isro-logo2.webp" alt="">
                   <a href="https://www.isro.gov.in/ISTRAC.html">
 
                     <div>
@@ -626,7 +630,7 @@
         <div class="first-footer-section">
           <div>
 
-            <img src="assets/isro-logo.png" alt="ISRO Logo" class="footer-isro-logo">
+            <img src="assets/isro-logo.webp" alt="ISRO Logo" class="footer-isro-logo">
             </div>
             <div class="footer-address-right">
               <h4>Address</h4>
@@ -643,16 +647,16 @@
             <h4>Social</h4>
             <div class="social-icons"></div>
             <a href="https://www.facebook.com/ISRO" class="fa fa-facebook">
-              <img src="assets/social icons/icons8-fb-50.png" alt="">
+              <img src="assets/social icons/icons8-fb-50.webp" alt="">
             </a>
-          <a href="https://x.com/isro" class="fa fa-twitter"> <img src="assets/social icons/icons8-x-50.png"
+          <a href="https://x.com/isro" class="fa fa-twitter"> <img src="assets/social icons/icons8-x-50.webp"
           alt=""></a>
             <a href="https://www.instagram.com/isro.dos/" class="fa fa-instagram"> <img
-            src="assets/social icons/icons8-insta-50.png" alt=""></a>
+            src="assets/social icons/icons8-insta-50.webp" alt=""></a>
           <a href="https://www.youtube.com/channel/UCw5hEVOTfz_AfzsNFWyNlNg" class="fa fa-youtube"> <img
-                src="assets/social icons/icons8-youtube-50.png" alt=""></a>
+                src="assets/social icons/icons8-youtube-50.webp" alt=""></a>
             <a href="https://en.wikipedia.org/wiki/ISRO" class="fa fa-wikipedia"> <img
-                src="assets/social icons/icons8-wikipedia-50.png" alt=""></a>
+                src="assets/social icons/icons8-wikipedia-50.webp" alt=""></a>
           </div>
         </div>
       </div>
